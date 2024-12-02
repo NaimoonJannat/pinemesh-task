@@ -4,8 +4,9 @@
   box-sizing: border-box;
 }
 :root {
-  --primary-color: #123456; 
-  --secondary-color: #abcdef;
+  --primary-color: #287279; 
+  --secondary-color: #9998E1;
+
   --font-family: 'Inter', sans-serif;
 }
 
@@ -20,16 +21,10 @@ html,
 body {
   font-family: var(--font-family);
   color: var(--primary-color);
-  background-color: #f9f9f9; /* Adjust as per design */
+  background-color: #f9f9f9; 
   line-height: 1.6;
 }
 
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
 
 a {
   color: inherit;
