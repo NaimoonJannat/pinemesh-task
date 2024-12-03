@@ -3,7 +3,7 @@
     width: 300px;
     padding: 20px;
     border-radius: 12px;
-    background-color: #aaa8f799;
+    background-color: #9998e132;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: left;
     font-family: Arial, sans-serif;
@@ -16,6 +16,7 @@
     top: 10px;
     right: 15px;
     font-size: 60px;
+    font-weight: 800;
     color: var(--secondary-color);
   }
   

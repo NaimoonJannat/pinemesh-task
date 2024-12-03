@@ -3,8 +3,9 @@
     --text-color: rgba(0, 0, 0, 0.463);
   }
   
-  /* Accordion container */
+ 
   .accordion-container {
+    background-color: white;
     width: 80%;
     display: flex;
     justify-content: space-between;

@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import { BiSolidStarHalf } from "react-icons/bi";
-import { AiFillStar } from "react-icons/ai";
 import { FaStar } from 'react-icons/fa';
 import "./Banner.css"
 const Banner = () => {
