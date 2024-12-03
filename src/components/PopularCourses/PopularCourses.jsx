@@ -28,7 +28,7 @@ const PopularCourses = () => {
 
   return (
     <div className="popular-courses">
-      <div className="section-header">
+      <div className="course-header">
         <h2>Our Popular Courses</h2>
         <p>
           By taking proactive steps to nurture mental health, we can enhance our
@@ -43,12 +43,12 @@ const PopularCourses = () => {
           640: { slidesPerView: 1.5 },
           768: { slidesPerView: 2 },
           1024: { slidesPerView: 3 },
-          1280: { slidesPerView: 4 },
+          1280: { slidesPerView: 3.5 },
         }}
         navigation 
         pagination={{ clickable: true }} 
         modules={[Navigation, Pagination]} 
-        className="courses-slider"
+ 
       >
         {courses.map((course) => (
           <SwiperSlide key={course.id}>
