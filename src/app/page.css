@@ -1,0 +1,19 @@
+.main {
+    max-width: 60%; 
+    margin: 0 auto;
+  }
+  
+  /* Medium screens (tablets, etc.) */
+  @media (max-width: 1024px) {
+    .main {
+      max-width: 80%; 
+    }
+  }
+  
+  /* Small screens (phones) */
+  @media (max-width: 768px) {
+    .main {
+      max-width: 100%; 
+    }
+  }
+  

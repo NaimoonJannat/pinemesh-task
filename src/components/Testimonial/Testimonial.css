@@ -1,0 +1,79 @@
+.testimonials {
+    padding: 2rem 1rem;
+    background-color: white;
+  }
+  
+  .section-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .section-header h2 {
+    width: 50%;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0.5rem auto;
+    color: #333;
+  }
+  
+  
+  .swiper-container {
+    position: relative;
+  }
+  
+  .swiper-container .swiper-button-prev,
+  .swiper-container .swiper-button-next {
+    top: -30px; 
+    color: #008080;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-container .swiper-button-prev:hover,
+  .swiper-container .swiper-button-next:hover {
+    background-color: #008080;
+    color: #fff;
+  }
+  
+  .swiper-pagination {
+    margin-top: 20px;
+  }
+  
+  .swiper-pagination-bullet {
+    background-color: #ccc;
+    opacity: 1;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #008080;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+  }
+  
+  @media (max-width: 768px) {
+    .section-header h2 {
+      font-size: 1.5rem;
+    }
+  
+    .section-header p {
+      font-size: 0.9rem;
+    }
+  
+    .swiper-container .swiper-button-prev,
+    .swiper-container .swiper-button-next {
+      top: -20px;
+      width: 30px;
+      height: 30px;
+    }
+  }
+  
