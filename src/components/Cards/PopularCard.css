@@ -30,15 +30,18 @@
     font-size: 12px;
     font-weight: 600;
     border-radius: 4px;
-    color: white;
+    border: 2px solid;
+    color: black;
   }
   
   .tag.beginner {
-    background-color: #ffbf00;
+    background-color: #ffaa0020;
+    border-color: #ffc107;
   }
   
   .tag.category {
-    background-color: #3bb77e;
+    background-color: #a8e34f44;
+    border-color: rgb(161, 232, 38);
   }
   
   .card-title {
@@ -79,7 +82,7 @@
   }
   
   .meta-icon {
-    color: #555;
+    color: var(--secondary-color);
   }
   
   .card-footer {

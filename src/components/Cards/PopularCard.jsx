@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import React from 'react';
-import { FaStar, FaClock, FaBook } from 'react-icons/fa';
+import { MdMenuBook } from "react-icons/md";
+import { BiSolidStarHalf } from "react-icons/bi";
+import { FaStar, FaClock } from 'react-icons/fa';
 import "./PopularCard.css"
 
 const PopularCard = () => {
@@ -8,7 +10,7 @@ const PopularCard = () => {
     <div className="course-card">
       <div className="card-image">
       <Image
-              src="/img1.png" 
+              src="/pic4.png" 
               alt="Course Thumbnail"
               width={400}
               height={200}
@@ -27,7 +29,7 @@ const PopularCard = () => {
           <FaStar className="star-icon" />
           <FaStar className="star-icon" />
           <FaStar className="star-icon" />
-          <FaStar className="star-icon" />
+          <BiSolidStarHalf className="star-icon" />
           <span className="rating-value">4.9 (566)</span>
         </div>
         <div className="card-meta">
@@ -36,7 +38,7 @@ const PopularCard = () => {
             <span>6h 34m</span>
           </div>
           <div className="meta-item">
-            <FaBook className="meta-icon" />
+            <MdMenuBook className="meta-icon" />
             <span>3 Lessons</span>
           </div>
         </div>

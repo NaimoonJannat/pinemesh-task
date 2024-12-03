@@ -1,6 +1,8 @@
 import Image from "next/image";
 import React from "react";
+import { BiSolidStarHalf } from "react-icons/bi";
 import { AiFillStar } from "react-icons/ai";
+import { FaStar } from 'react-icons/fa';
 import "./Banner.css"
 const Banner = () => {
   return (
@@ -8,13 +10,14 @@ const Banner = () => {
       <div className="banner-content">
         <div className="left-section">
           <div className="rating">
-            <div className="stars">
-              {[...Array(5)].map((_, i) => (
-                <AiFillStar key={i} className="star-icon" />
-              ))}
-            </div>
-            <p className="rating-text">4.9 (566)</p>
-          </div>
+          <FaStar className="star-icon" />
+          <FaStar className="star-icon" />
+          <FaStar className="star-icon" />
+          <FaStar className="star-icon" />
+          <BiSolidStarHalf className="star-icon" />
+          <p className="rating-text">4.9 (566)</p>
+        </div>
+          
           <h1>#1 Platform Powering Health and Wellness</h1>
           <p className="description">
             We&apos;re restoring home as the primary place of personal well-being
