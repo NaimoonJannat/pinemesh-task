@@ -10,8 +10,8 @@ export default function Home() {
       <div className="main">
  <PopularCourses />
  <Accordion />
- <Testimonial />
    </div>
+   <Testimonial />
     </div>
    
    
