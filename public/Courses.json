@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "title": "Foundation of Sleep: Sleep Science and Sleep Disorders",
+      "level": "Beginner",
+      "category": "Nutrition and Diet",
+      "rating": 4.9,
+      "reviews": 566,
+      "duration": "6h 34m",
+      "lessons": 3,
+      "price": "$40",
+      "instructor": {
+        "name": "Kilian Murphe",
+        "profileImage": "/profile.png"
+      },
+      "thumbnail": "/pic5.png"
+    },
+    {
+      "id": 2,
+      "title": "Parenting in the Digital Age: Navigating Screen Time",
+      "level": "Intermediate",
+      "category": "Health and Wellness",
+      "rating": 4.9,
+      "reviews": 465,
+      "duration": "6h 34m",
+      "lessons": 3,
+      "price": "$50",
+      "instructor": {
+        "name": "Sarah Hopkins",
+        "profileImage": "/profile2.png"
+      },
+      "thumbnail": "/pic4.png"
+    },
+    {
+      "id": 3,
+      "title": "Holistic Health: Integrating Mind, Body, and Spirit",
+      "level": "Beginner",
+      "category": "Nutrition and Diet",
+      "rating": 4.8,
+      "reviews": 389,
+      "duration": "6h 34m",
+      "lessons": 3,
+      "price": "$45",
+      "instructor": {
+        "name": "Luna Karim",
+        "profileImage": "/profile3.png"
+      },
+      "thumbnail": "/pic3.png"
+    },
+    {
+      "id": 4,
+      "title": "Introduction to Health and Nutrition",
+      "level": "Beginner",
+      "category": "Nutrition and Diet",
+      "rating": 4.9,
+      "reviews": 566,
+      "duration": "6h 34m",
+      "lessons": 3,
+      "price": "$40",
+      "instructor": {
+        "name": "Kate Winslate",
+        "profileImage": "/profile4.png"
+      },
+      "thumbnail": "/pic2.png"
+    },
+    {
+        "id": 5,
+        "title": "Introduction to Health and Nutrition",
+        "level": "Beginner",
+        "category": "Nutrition and Diet",
+        "rating": 4.9,
+        "reviews": 566,
+        "duration": "6h 34m",
+        "lessons": 3,
+        "price": "$40",
+        "instructor": {
+          "name": "Kate Winslate",
+          "profileImage": "/profile4.png"
+        },
+        "thumbnail": "/pic2.png"
+      }
+  ]
+  

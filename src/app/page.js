@@ -1,17 +1,17 @@
 import Banner from "@/components/Banner/Banner";
-import PopularCard from "@/components/Cards/PopularCard";
 import Footer from "@/components/Footer/Footer";
 import Navbar from "@/components/Navbar/Navbar";
-
+import PopularCourses from "@/components/PopularCourses/PopularCourses";
+import "./page.module.css"
 export default function Home() {
   return (
-   <main>
+   <div className="main">
   <Navbar />
  <Banner />
- <PopularCard />
+ <PopularCourses />
 
   <Footer />
 
-   </main>
+   </div>
   );
 }
