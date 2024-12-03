@@ -1,85 +1,118 @@
 .popular-courses {
-    padding: 2rem 1rem;
-    background-color: white;
-    margin-left: 300px;
-  }
+  padding: 2rem 1rem;
+  margin-left: 300px;
+  margin-bottom: 50px;
+}
+
+.course-header {
+  text-align: left;
+  margin-bottom: 2rem;
+
   
-  .section-header {
-    text-align: left;
-    margin-bottom: 2rem;
-  }
+}
+
+.course-header h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+  text-align: left;
+
+ 
+}
+
+.course-header p {
+  font-size: 1rem;
+  color: #555;
+  max-width: 700px;
+  text-align: left;
+
+ 
+}
+
+
+.swiper-container {
+  position: relative;
+}
+
+/* Navigation Button Styles */
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  padding: 10px;
+  top: 8%;
+  transform: translateY(-50%);
+  color: black;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  font-size: 10px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.swiper-button-prev {
+  left: 900px; 
   
-  .section-header h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-    color: #333;
-    text-align: left;
+}
+
+.swiper-button-next {
+  right: 180px; 
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: #008080;
+  color: white;
+}
+
+/* Pagination Styles */
+.swiper-pagination {
+  margin-top: 20px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #ccc;
+  opacity: 1;
+  display: none;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #008080;
+}
+
+/* Slide Styles */
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .popular-courses{
+    margin: 0px;
   }
-  
-  .section-header p {
-    font-size: 1rem;
-    color: #555;
-    max-width: 700px;
-    text-align: left;
-  }
-  
-  .swiper-container {
-    position: relative;
-  }
-  
-  .swiper-container .swiper-button-prev,
-  .swiper-container .swiper-button-next {
-    top: -30px; /* Adjusts the position to align buttons at the top */
-    color: #008080;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .swiper-container .swiper-button-prev:hover,
-  .swiper-container .swiper-button-next:hover {
-    background-color: #008080;
-    color: #fff;
-  }
-  
-  .swiper-pagination {
-    margin-top: 20px;
-  }
-  
   .swiper-pagination-bullet {
     background-color: #ccc;
     opacity: 1;
+   display: flex;
   }
-  
-  .swiper-pagination-bullet-active {
-    background-color: #008080;
+  .course-header h2 {
+    font-size: 1.5rem;
   }
-  
-  .swiper-slide {
-    display: flex;
-    justify-content: center;
+
+  .course-header p {
+    font-size: 0.9rem;
   }
-  
-  @media (max-width: 768px) {
-    .section-header h2 {
-      font-size: 1.5rem;
-    }
-  
-    .section-header p {
-      font-size: 0.9rem;
-    }
-  
-    .swiper-container .swiper-button-prev,
-    .swiper-container .swiper-button-next {
-      top: -20px;
-      width: 30px;
-      height: 30px;
-    }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+    
   }
-  
+}

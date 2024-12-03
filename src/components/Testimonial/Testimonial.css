@@ -1,6 +1,7 @@
 .testimonials {
     padding: 2rem 1rem;
     background-color: white;
+    margin: 50px 0px;
   }
   
   .section-header {
@@ -9,7 +10,8 @@
   }
   
   .section-header h2 {
-    width: 100%;
+    text-align: center;
+    width: 30%;
     font-size: 1.8rem;
     font-weight: bold;
     margin: 0 auto;
@@ -19,7 +21,7 @@
   .swiper-slide {
     display: flex;
     justify-content: center;
-    padding: 1rem 0; /* Added padding for consistent spacing */
+    padding: 1rem 0; 
   }
   
   .swiper-pagination {
@@ -38,6 +40,7 @@
   @media (max-width: 768px) {
     .section-header h2 {
       font-size: 1.5rem;
+      width: 100%;
     }
   
     .swiper-slide {

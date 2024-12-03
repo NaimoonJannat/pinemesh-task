@@ -7,6 +7,7 @@
   .accordion-container {
     background-color: white;
     width: 80%;
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -93,7 +94,7 @@
   .accordion-right .icon {
     position: absolute;
     left: -5%;
-    bottom: 50%;
+    bottom: 70%;
     border-radius: 50%;
   }
   
@@ -102,6 +103,7 @@
     .accordion-container {
       flex-direction: column; 
       gap: 30px;
+      width: 100%;
     }
   
     .accordion-left,

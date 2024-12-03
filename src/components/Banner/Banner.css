@@ -4,6 +4,7 @@
     align-items: center;
     background-color: #f4f5f6;
     padding: 2rem 1rem;
+    margin-bottom: 50px;
   }
   
   .banner-content {
@@ -96,7 +97,7 @@
   }
   .little-icon {
     position: absolute;
-    bottom: 50%;
+    bottom: 70%;
     left: -8%;
     border-radius: 50px;
     
@@ -140,6 +141,7 @@
     }
     .banner-content {
       flex-direction: column;
+      width: 100%;
     }
   
     .left-section {
